@@ -10,9 +10,9 @@
 .body{
     /*estilos */
     font-family:'Amatic SC', cursive;
-    background-color: #D9D5E6;
     cursor: pointer;
-    
+    background-image: linear-gradient(45deg, #D9D5E6, #7E9CD9 );
+     
 }
 
 
@@ -85,6 +85,13 @@ ul{
    color: #6f6d6d;
     
 }
+
+.content__navbar :hover {
+
+    color: #d6e076;
+    
+}
+
 
 /* imagen */
 /* estilos */
