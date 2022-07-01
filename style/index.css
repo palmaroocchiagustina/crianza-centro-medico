@@ -106,7 +106,7 @@ ul{
 
     margin: auto;
    margin-bottom: 30%;
-   transition: transform 0.5ms;
+   
 
   
 }
@@ -134,11 +134,16 @@ ul{
     background-color: #fff;
     overflow: hidden;
     box-shadow: 1vw 1vw 1vw 1vw;
-   
+    transition: transform 0.3s;
+
 
 }
 
+.card:hover {
 
+           transform: translateY(-10px);
+
+}
 
 /* estilos*/
 .card__img{
