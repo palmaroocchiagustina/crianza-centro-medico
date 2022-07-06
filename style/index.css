@@ -398,21 +398,35 @@ p{
     
     
 }
+.footer {
+ 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px ; 
 
 
+}
+
+.footer h4 {
+
+    color: #363636 ;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+/*
 .footer{
     display: flex;
     justify-content: flex-end;
 
     
-    /* Estilos*/
+    /* Estilos
     background-color: #7E9CD9;
     width: 100%;
     font-size: 2rem;
     padding: 1.5rem 3rem;
 
 
-}
+}*/
 
 
 
