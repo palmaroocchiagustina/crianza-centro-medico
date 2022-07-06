@@ -15,14 +15,23 @@
 
 .bg-color{
 
-    background-color: #efefef;
+    background-color:  #cecece;
     
   
+}
+.bg-body {
+
+    background-color:  #c3c3c3;
 }
 
 .bg-color a{
 
     color: #363636;
+}
+
+.nav-link:hover {
+
+    color: #6a9af4;
 }
 
 .img-thumbnail{
