@@ -15,13 +15,9 @@
 
 .bg-color{
 
-    background-color:  #cecece;
+    background-color:  #e2e3e3;
     
   
-}
-.bg-body {
-
-    background-color:  #c3c3c3;
 }
 
 .bg-color a{
@@ -46,103 +42,6 @@
     width: 100%;
 }
 
-
-
-/* body 
-
-.body{
-    /*estilos 
-    font-family:'Amatic SC', cursive;
-    cursor: pointer;
-    background-image: linear-gradient(45deg, #D9D5E6, #7E9CD9 );
-     
-}
-
-
-
-/* header
-
-.header{
-   
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    
-    /* estilos
-
-    width: 100%;
-    font-size: 3rem;
-    background-color: #7E9CD9;
-    padding: 1.5rem 3rem;
-}
-.header__title{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-
-     /* estilos 
-
-    color: rgb(36, 36, 36);
-    font-size: 7rem;
-    width: 90vw;
-
-}
-.header__content{
-    display: flex;
-    justify-content: space-between;
-
-    /* estilo 
-
-    max-width: 1200px;
-    margin:0 auto;
-}
-
-/* navbar
-
-.content__navbar {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-
-    /* estilos
-
-    width: 90vw;
-    font-size: 3rem;
-    
-}
-ul{
-
-    display: inline-flex;
-}
-
-/* estilos 
-.content__navbar li{
-    margin: 0 10px;
-}
-.content__navbar li a{
-   
-   color: #6f6d6d;
-    
-}
-
-.content__navbar :hover {
-
-    color: #d6e076;
-    
-}
-
-
-/* imagen 
-/* estilos 
-.imagen{
-
-    height:30rem;
-    width: 100%;
-} */
 
 /* pagina principal */
 
@@ -399,11 +298,11 @@ p{
     
 }
 .footer {
- 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 50px ; 
-
+    padding: 20px 20px;
+    margin-top: 50px;
 
 }
 
@@ -411,7 +310,32 @@ p{
 
     color: #363636 ;
     margin-bottom: 20px;
+    font-size: 30px;
+
+}
+.footer__grid-list li{
+
+    margin: 10px 0;
+
+
+}
+.footer__grid-list a{
+
     font-size: 25px;
+    
+
+}
+
+.footer__grid-list li a {
+
+    transition: color 0.3s;
+}
+
+
+
+.footer__grid-list li a:hover  {
+
+    color: #6a9af4; 
 }
 /*
 .footer{
