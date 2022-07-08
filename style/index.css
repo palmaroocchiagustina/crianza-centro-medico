@@ -15,7 +15,7 @@
 
 .bg-color{
 
-    background-color:  #e2e3e3;
+    background-color:  #a8c5fb;
     
   
 }
@@ -25,9 +25,25 @@
     color: #363636;
 }
 
+.nav-link{
+
+    color: 0.5s;
+}
+
 .nav-link:hover {
 
-    color: #6a9af4;
+    color: #e1ffab;
+}
+
+.dropdown-item{
+
+    transition: color 0.3s;
+
+}
+
+.dropdown-item:hover{
+
+    color:#93b8fd;
 }
 
 .img-thumbnail{
@@ -125,9 +141,9 @@ p{
 /* nosotros */
 
 
-.imagen__nosotros{
+.nos__img{
 
-    height: 40vw;
+    height: 35rem;
     width: 100%;
 }
 .title__h1{
@@ -304,30 +320,31 @@ p{
     padding: 20px 20px;
     margin-top: 50px;
 
+    
 }
 
 .footer h4 {
 
     color: #363636 ;
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 25px;
 
 }
 .footer__grid-list li{
-
+    
     margin: 10px 0;
 
 
 }
-.footer__grid-list a{
+.footer__grid-list a i{
 
-    font-size: 25px;
+    font-size: 20px;
     
 
 }
 
 .footer__grid-list li a {
-
+    
     transition: color 0.3s;
 }
 
@@ -335,22 +352,9 @@ p{
 
 .footer__grid-list li a:hover  {
 
-    color: #6a9af4; 
+    color:#d6e076; 
 }
-/*
-.footer{
-    display: flex;
-    justify-content: flex-end;
 
-    
-    /* Estilos
-    background-color: #7E9CD9;
-    width: 100%;
-    font-size: 2rem;
-    padding: 1.5rem 3rem;
-
-
-}*/
 
 
 

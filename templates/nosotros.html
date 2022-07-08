@@ -6,56 +6,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Crianza centro medico</title>
     <link rel="icon" type="image/x-icon" href="../imagenes/seguro-de-salud.png">
-    <link rel="stylesheet" href="../style/index.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+   
+  
+  
+  
+  <!--MIS ESTILOS-->
+   <link rel="stylesheet" href="../style/index.css">
+
+
+
+
 </head>
 
 <!--body-->
 
-<body class="body" >
-    <header class="header">
-
-        <!--titulo-->
-
-        <h1 class="header__title" >Nosotros</h1>
-
-      <!--navbar-->
-
-        <nav class="content__navbar" >
-            <ul>
-                <li>
-                    <a href="../index.html">Página principal</a>
-                    
-                </li>
-                <li>
-                    <a href="./especialidades.html">Especialidades</a>
-                </li>
+<body class="body bg-body">
+    <header class="header bg-color">
     
-                <li>
-                    <a href="https://wa.me/5411">Turnos</a>
+        
+        <!--navbar boot-->
+        <nav class="navbar navbar-expand-md fs-4">
+          <div class="container">
+            <a class="navbar-brand fs-1" href="./index.html">CR</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
                 </li>
-                <li>
-                    <a href="./contacto.html">Contacto</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="./templates/contacto.html">Contacto</a>
                 </li>
-            </ul>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://wa.me/5411">Turnos</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Servicios
+                  </a>
+                  <ul class="dropdown-menu fs-4" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item nav-link" href="../templates/especialidades.html">Especialidades</a></li>
+                    <li><a class="dropdown-item nav-link" href="../templates/especialidades.html">Estudios complementarios</a></li>
+                  
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
         </nav>
+  
     </header>
    
 
 <main>
-     <!--imagen-->
-    <section>
 
-        <img class="imagen__nosotros" src="../imagenes/nosotros_img.jpg" alt="nosotros">
-    </section>
+    <!--Carrusel-->
+
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner p-5">
+          <div class="carousel-item active nos__img">
+            <img src="../imagenes/carrusel6.jpg" class="d-block w-100" alt="imagen">
+          </div>
+          <div class="carousel-item nos__img">
+            <img src="../imagenes/carrusel5.jpg" class="d-block w-100" alt="imagen">
+          </div>
+          <div class="carousel-item nos__img">
+            <img src="../imagenes/carrusel4.jpg" class="d-block w-100" alt="imagen">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
 
      <!--informacion-->
 
     <section>
         <h1 class="title__h1" >CRIANZA</h1>
-        <p class="parrafo__crianza" >Cada niño, cada edad y cada etapa de su vida es única, pero nuestra misión siempre es similar: contribuimos integralmente – con nuestra dedicación, excelencia pediátrica y enfoque en prevención, en el desarrollo y crecimiento de los niños, para que puedan convertirse en jóvenes saludables capaces de maximizar su potencial.</p>
+        <p class="parrafo__crianza text-center" >Cada niño, cada edad y cada etapa de su vida es única,
+            nuestra misión es:<br> contribuir integralmente – con dedicación, excelencia pediátrica y enfoque en prevención, <br>
+            en el desarrollo y crecimiento de los niños,<br> para que puedan convertirse en jóvenes saludables capaces de maximizar su potencial.</p>
 
 
 
