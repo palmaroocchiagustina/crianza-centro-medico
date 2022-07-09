@@ -45,7 +45,7 @@
                 <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./especialidades.html">Especialidades</a>
+                <a class="nav-link" href="./nosotros.html">Nosotros</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="https://wa.me/5411">Turnos</a>
@@ -65,47 +65,59 @@
         </div>
       </nav>
   </header>
-  
+         
+       <main>
          <!--formulario-->
 
-        <section class="formulario__grid">
+        <section class="formulario__grid ">
                 
                 <form action="" method="" enctype="">
-                    <div class="form__div">
+                  <div class="form__div">
                     <label class="form--lebel"  for="nombre ">Nombre</label>
-                    <input type="text" id="Nombre">
+                    <input type="text" class="form-control" aria-describedby="basic-addon2">
+                
                     </div>
                     <div class="form__div">
                    
                     <label class="form--lebel" for="apellido"> Apellido</label>
-                    <input type="text" id="Apellido">
+                    <input type="text" class="form-control" aria-describedby="basic-addon2">
+                   
+                   
                     </div>
-                    <div class="form__div">
-                    <label class="form--lebel" for="correo">Email</label>
-                    <input type="email" id="correo electronico">
+
+                    <div class="form--lebel input-group mb-3 py-2">
+                      <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                      <span class="form__text input-group-text " id="basic-addon2">@example.com</span>
                     </div>
-                    
-                    <div class="form__div">
-                    <label  class="form--lebel" for="servicio">Servicio</label>
-                    <select name="servicio" id="servicio">
-                        <option value="Clinica medica">Clinica medica</option>
-                        <option value="estudios complementarios">Estudios complementarios</option>
+
+                    <select class="form-select form--lebel  py-2" aria-label="Default select example">
+                      <option>Seleccione el servicio</option>
+                      <option value="1">Clinica</option>
+                      <option value="2">Especialidades</option>
+                      <option value="3">Estudios complementarios</option>
                     </select>
-        
+
+
+  
+                    
+                    <div class="input-group py-2 ">
+                      <span class="form__text input-group-text">Consulta</span>
+                      <textarea class="form-control" aria-label="With textarea"></textarea>
                     </div>
                     
-                    <div class="form__div">
-                    <label class="form--lebel"  for="consulta">Ingrese su consulta</label>
-                    <textarea for="consulta" id="consulta" cols="7" rows="7" placeholder="Consulta..."></textarea>
+                    <div>
+            
+                      <button class=" form--button w-100 " type="submit">Enviar</button>
+                      <button class="form--button w-100 " type="reset">Limpiar formulario</button>
+                  
+                
                     </div>
-                    <button class="form--button" type="submit">Enviar</button>
-                    <button class="form--button" type="reset">Limpiar formulario</button>
+
                 </form>
-                 
-            </div>
+                    
  
              <!--informacion-->
-             <section class="bg-white">
+             <section>
             <div  class="horarios">
                 <h2>Horarios de atencion</h2>
                 <p class="horarios__parrafo">
@@ -120,46 +132,49 @@
     </main>
         <!--footer-->
 
-<footer class="footer bg-color ">
-   
-    <div class="footer__grid text-center">
-   
-        <h4>Donde estamos</h4>
-        <a href="https://www.google.com/maps/place/Lamadrid+3312,+Godoy+Cruz,+Mendoza/@-32.9035983,-68.8869501,17z/data=!3m1!4b1!4m5!3m4!1s0x967e09c71d2d676f:0x61890e6680a14cde!8m2!3d-32.903598!4d-68.884761">
-          Lamadrid 3312. B°SUPE.</a>
-   
-    </div>
-    <div class="text-center">    
-    
-        <h4>Menu</h4>  
-    <div class="footer__grid-list">
-            <ul class="footer__grid-list">
-            <li><a href="./templates/nosotros.html">Nosotros</a></li>
-           <li><a href="./templates/especialidades.html">Especialidades</a></li>
-            <li><a href="https://wa.me/5411">Turnos</a></li>
-           <li><a href="./templates/contacto.html">Contacto</a></li>
-            </ul>
+
+        <footer class="foot bg-color">
+     
+          <div>
+     
+           <a class="foot__logo navbar-brand" href="./index.html">CR</a>
+     
           </div>
-    </div>
-    <div class="text-center footer__grid">
-        <h4>Redes sociales</h4>
+     
+          <div>
+     
+           <ul>
+            
+             <li>
+               <p>Turnos: 261789005</p>
+     
+             </li>
+             <li>
+            
+               <p>Consultas: 2616544389</p>
+     
+             </li>
+             <li>
+     
+               <p> Lamadrid 3158 - Barrio SUPE - Godoy Cruz - Mendoza</p>
+     
+             </li>
+           </ul>
+           </div>
+           <div>
+    
+            <i class="bi bi-facebook">https://es-la.facebook.com/</i>
+            
+            <i class="bi bi-instagram">https://www.instagram.com/</i>
+  
+            
+          </div>
+
+
           
-          <div class="footer__rrss">
-  
-            <i class="bi bi-facebook"></i>
-            
-            <i class="bi bi-instagram"></i>
-  
-            <i class="bi bi-twiter"></i>
-            
-            
-          </div>
-    </div>
-  
-    </div>
-    
-  </footer>
-      
-  </body>
-  </html>
-  
+     
+       </footer>
+     
+     
+     </body>
+     </html>
