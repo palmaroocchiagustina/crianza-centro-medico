@@ -11,15 +11,21 @@
 .body{
 
     font-family: 'Amatic SC', cursive;
+    background: #fff url(../imagenes/—Pngtree—memphis\ pattern\ background\ in\ pastel_1167512.png) center center/cover no-repeat;
 }
 
 .bg-color{
 
-    background-color:  #a8c5fb;
+
+   background-color: #78c1c9;
     
   
 }
+.bg-footer {
 
+background-color:  #78c1c9;
+
+}
 .bg-color a{
 
     color: #363636;
@@ -32,9 +38,14 @@
 
 .nav-link:hover {
 
-    color: #e1ffab;
+    color: #fcd498;
 }
+.dropdown-menu{
 
+background-color: #78c1c9;
+
+
+}
 .dropdown-item{
 
     transition: color 0.3s;
@@ -43,7 +54,7 @@
 
 .dropdown-item:hover{
 
-    color:#93b8fd;
+    color: #f19e21;
 }
 
 .img-thumbnail{
@@ -96,7 +107,7 @@
     
 
     border-radius: 1rem;
-    background-color: #fff;
+    background-color: #fbfbfb;
     overflow: hidden;
     box-shadow: 1vw 1vw 1vw 1vw;
     transition: transform 0.3s;
@@ -176,14 +187,13 @@ p{
 .especialidades__img{
 
     
-    height: 40vw;
+    height: 55vw;
     width: 100%;
 }
 
 .grid {
     display: grid;   
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows:repeat(3, 1fr);
    grid-column-gap: 4rem;
    grid-row-gap: 6rem;
    justify-items: center;
@@ -201,24 +211,21 @@ p{
 }
 .color__especialidades{
      /* estilos*/
-    background-color: #8f8c8c;
-    color:#d6e076;
+    background-color:  #909090;
+    color: #e1ffab;
     padding: 1rem 1rem;
     font-size: 1.5rem;
     font-family:'Amatic SC', cursive;
     border-radius: 0.5rem;
 
 }
- .horarios__especialidades{
+ /*.horarios__especialidades{
 
     display: flex;
     justify-content: center;
-    /* estilos */
-    background-color: #7E9CD9;
-    font-size: 3rem;
 
 
- }
+}*/
 
 /* contacto*/
 
@@ -227,7 +234,7 @@ p{
 .formulario__grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-color: #7E9CD9;
+    background-color: #78c1c9    ;
     margin: 5rem 3rem;
     margin-bottom: 20rem;
     padding: 2rem;
@@ -270,7 +277,7 @@ p{
     /* estilos */
     padding: 5px 20px;
     background-color: transparent;
-    border: 2px solid #d6e076;
+    border: 2px solid #fcd498;
     color: black;
     border-radius: 5px;
     cursor: pointer;
@@ -281,8 +288,8 @@ p{
 
   .form--button:hover {
     /* estilos */
-    box-shadow: 0px 0px 5px  #d6e076, 0px 0px 15px  #d6e076,0px 0px 25px #d6e076;
-    color: #d6e076;
+    box-shadow: 0px 0px 5px  #fcd498, 0px 0px 15px  #fcd498,0px 0px 25px #fcd498;
+    color: #fcd498;
     
 
   }
@@ -296,7 +303,7 @@ p{
     padding-bottom: 2rem;
     font-size: 2rem;
     text-align: center;
-    background-color: #7E9CD9;
+    background-color: #78c1c9;
     justify-items: center;
     align-items: stretch;
     align-content: center;
@@ -309,7 +316,7 @@ p{
     /* estilos */
     text-align: center;
     font-size: 2rem;
-    background-color: #7E9CD9;
+    background-color: #78c1c9;
     
     
 }
@@ -391,7 +398,16 @@ p{
    
     }
 
-}
+
+  
+    /* nosotros */ 
+
+    .title__h1{
+     
+        padding-top: 2rem;
+    }
+    }
+
 
 @media screen and (max-width: 880px) {
    
@@ -422,6 +438,7 @@ p{
         justify-items: center;
    
     }
+
 
     /* contacto */
     .formulario__grid{
@@ -487,6 +504,8 @@ p{
         justify-items: center;
     
     }
+
+
     /* contacto */
 
     .formulario__grid{
@@ -524,6 +543,11 @@ p{
      }
 
       /* nosotros */
+
+      .title__h1{
+     
+        padding-top: 2rem;
+    }
 
      .imagen__nosotros{
 
@@ -574,9 +598,7 @@ p{
   
   
     }
-    .card__img{
-      display: none;
-    }
+
     .card__title{
       font-size: 2rem;
     }
@@ -663,9 +685,7 @@ p{
 
 
   }
-  .card__img{
-    display: none;
-  }
+
   .card__title{
     font-size: 2rem;
   }
