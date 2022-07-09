@@ -7,134 +7,105 @@
     <title>Crianza centro medico</title>
 
     <link rel="icon" type="image/x-icon" href="../imagenes/seguro-de-salud.png">
-    <link rel="stylesheet" href="../style/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
 
-</head>
 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+   
+  
+  
+  
+  <!--MIS ESTILOS-->
+   <link rel="stylesheet" href="../style/index.css">
+
+
+
+
+
+</head>
 <!--body-->
 
-<body class="body" >
-    <header class="header" >
-       <h1 class="header__title">Especialidades</h1>
+<body class="body">
+  <header class="header bg-color">
+  
+      
+      <!--navbar boot-->
+      <nav class="navbar navbar-expand-md fs-4">
+        <div class="container">
+          <a class="navbar-brand fs-1" href="../index.html">CR</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://wa.me/5411">Turnos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./nosotros.html">Nosotros</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-      <!--navbar-->
+  </header>
 
-       <nav class="content__navbar" >
-        <ul>
-            <li>
-                <a href="./nosotros.html">Nosotros</a>
-            </li>
-            <li>
-                <a href="../index.html">Página principal</a>
-            </li>
-
-            <li>
-              <a href="https://wa.me/5411">Turnos</a>
-            </li>
-            <li>
-                <a href="./contacto.html">Contacto</a>
-            </li>
-        </ul>
-    </nav>
-    </header>
     <main>
      
-      <!--imagen-->
-      <section>
-      <img class="especialidades__img" src="../imagenes/especialidades_img.jpg" alt="imagen">
 
-    </section>
 
-   
+    <!--especialidades-->
+
+
+     <section class="especialidades__lista  p-5 my-5 container text-center">
+    <ul class="list-group list-group">
+      <li class="list-group-item">Clinica pediátrica</li>
+      <li class="list-group-item">Traumatología</li>
+      <li class="list-group-item">Dermatología</li>
+      <li class="list-group-item">Psicologia infantil</li>
+    </ul>
+    <ul class="list-group list-group">
+      <li class="list-group-item">Kinesiología</li>
+      <li class="list-group-item">Kinesiología respiratoria</li>
+      <li class="list-group-item">Estimulacion temprana</li>
+      <li class="list-group-item">Fonoudiología</li>
+    </ul>
+    <ul class="list-group list-group">
+      <li class="list-group-item">Nemonología</li>
+      <li class="list-group-item">Cardiología infantil</li>
+      <li class="list-group-item">Nutrición</li>
+      <li class="list-group-item">Terapia ocupacional</li>
+    </ul>
+    <ul class="list-group list-group">
+      <li class="list-group-item">Laboratorio</li>
+      <li class="list-group-item">Radiografías</li>
+      <li class="list-group-item">Tomografia computada</li>
+      <li class="list-group-item">BERA</li>
+    </ul>
+    <ul class="list-group list-group-xl">
   
-     <!--especialidades-->
-
-    <section class="grid" >
-
-      <div class="servicios__prof">
-    <label for="clinica"></label>
-    <select name="medico" id="medico" class="color__especialidades">
-      <optgroup label="Profesionales">
-       <option value="clinica">Clinica</option>
-        <option value="dr. mariano milani">Dr. Mariano Milani</option>
-        <option value="dra. mariana ghione">Dra. Mariana Ghione</option>
-        <option value="dra. agustina vegas">Dra. Agustina Vegas</option> 
+  
+    </ul>
     
-      </optgroup>
-    </select>
-  </div>
-  
-  <div class="servicios__prof">
-
-    <label for="Traumatologia"></label>
-    <select name="medico" id="medico" class="color__especialidades">
-    <optgroup label="Profesionales">
-        <option value="Traumatologia">Traumatologia</option> 
-        <option value="dr. fabricio castro">Dr. Fabricio Castro</option>
-        <option value="dra. isabella acosta">Dra. Isabella Acosta</option>
-    </optgroup>
-    </select>
-    </div>
-
-         <div class="servicios__prof">
-         <label for="Neumologia"></label> 
-         <select name="medico" id="medico" class="color__especialidades">      
-        <optgroup label="Profesionales">
-          <option value="Neumologia">Neumologia</option>   
-        <option value="dra. soledad lopez">Dra. Soledad Lopez</option> 
-        <option value="dra.guadalupe perez">Dra. Guadalupe Perez</option>
-        </optgroup>
-         </select>
-        </div>
-
-        <div class="servicios__prof">
-         <label for="Psicologia"></label>  
-         <select name="medico" id="medico" class="color__especialidades">
-        <optgroup label="Profesionales">
-             <option value="Psicologia">Psicologia infantil</option>   
-            <option value="dra. elisa tomaseli">Dra. Elisa Tomaseli</option> 
-            <option value="dr. franco carrasco">Dr. Franco Carrasco</option> 
-    
-    </optgroup>
-  
-  </select>
-</div>
-
-<div class="servicios__prof">
-  <label for="clinica"></label>
-  <select name="medico" id="medico" class="color__especialidades">
-<optgroup label="Servicios">
-
- <option value="laboratorio">Laboratorio</option>
-
-</optgroup>
-</select>
-</div>
-   
-<div class="servicios__prof">
-     <label for="clinica"></label>
-     <select name="medico" id="medico" class="color__especialidades">
-  <optgroup label="Servicios">
-   
-    <option value="estudios complementarios">Estudios complementarios</option>
-   
-    <option value="rayos">Rx</option>
-    <option value="resonancia">Resonancia magnetica</option>
-    <option value="tomografia">Tomografia computada</option>
-  </optgroup>
-</select>
-</div>
-</section>
+  </section>
 
 <!--informacion-->
 
-<section>
+<section class="especialidades__horarios p-5   text-center container">
      
-      <h2 class="horarios__especialidades"> Horarios de atención.</h2> 
-      <p class="horarios__parrafo" >
+      <h2> Horarios de atención.</h2> 
+      <p >
         Lunes a viernes 
         de 8 hs a 21 hs<br>
         Sabados y feriados 
@@ -143,30 +114,57 @@
 
 </section>
     </main>
- <!--footer--> 
-
-    <footer class="footer" >
+<!--footer-->
 
 
-        <ul class="link__foot">
-            <li>
-              <a><link rel="icon"><img src="../imagenes/ubicacion.png" alt="ubicacion" width="25" height="25">
-              <a class="foot__ubicacion"
-            href="https://www.google.com/maps/place/Lamadrid+3312,+Godoy+Cruz,+Mendoza/@-32.9035983,-68.8869501,17z/data=!3m1!4b1!4m5!3m4!1s0x967e09c71d2d676f:0x61890e6680a14cde!8m2!3d-32.903598!4d-68.884761">
-            Lamadrid 3312. B°SUPE.</a>
-            </li>
-            <li>
-              <a class="icono__foot" href="https://www.instagram.com/"> <img src="../imagenes/instagram (2).png" alt="instagram" width="20"
-                height="20"></a>
-            </li>
-            <li>
-              <a class="icono__foot" href="https://www.whatsapp.com/?lang=es"> <img src="../imagenes/whatsapp (1).png" alt="whatsapp"
-                width="25" height="25"></a>
-            </li>
-          </ul>
-          
+<footer class="foot bg-color">
+     
+  <div>
+
+   <a class="foot__logo navbar-brand" href="./index.html">CR</a>
+
+  </div>
+
+  <div>
+
+   <ul>
+    
+     <li>
+       <p>Turnos: 261789005</p>
+
+     </li>
+     <li>
+    
+       <p>Consultas: 2616544389</p>
+
+     </li>
+     <li>
+
+       <p> Lamadrid 3158 - Barrio SUPE - Godoy Cruz - Mendoza</p>
+
+     </li>
+   </ul>
+   </div>
+   <div>
+    
+    <i class="bi bi-facebook"></i>
+    <a class="nav-link" href="https://es-la.facebook.com/"></a>
+
+    <i class="bi bi-instagram"></i>
+    <a class="link" href="https://www.instagram.com/"></a>
+
+    
+  </div>
+
+
+
+
+
+
+  
 
 </footer>
-    
+
+
 </body>
 </html>

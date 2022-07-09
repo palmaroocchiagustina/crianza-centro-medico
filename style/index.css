@@ -1,38 +1,65 @@
-/**{
+*{
+  
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;
-}
-<<<<<<< HEAD
 
-/* prueba */
+
+
+}
+  
+
+/* caracteristicas generales */
 
 .body{
 
     font-family: 'Amatic SC', cursive;
+    background: #fff url(../imagenes/—Pngtree—memphis\ pattern\ background\ in\ pastel_1167512.png) center center/cover no-repeat;
 }
 
 .bg-color{
 
-    background-color:  #cecece;
+
+   background-color: #78c1c9;
     
   
 }
-.bg-body {
+.bg-footer {
 
-    background-color:  #c3c3c3;
+background-color:  #78c1c9;
+
 }
-
 .bg-color a{
 
     color: #363636;
 }
 
+.nav-link{
+
+    color: 0.5s;
+}
+
 .nav-link:hover {
 
-    color: #6a9af4;
+    color: #fcd498;
+}
+.dropdown-menu{
+
+background-color: #78c1c9;
+
+
+}
+.dropdown-item{
+
+    transition: color 0.3s;
+
+}
+
+.dropdown-item:hover{
+
+    color: #f19e21;
 }
 
 .img-thumbnail{
@@ -46,8 +73,13 @@
     height:30rem;
     width: 100%;
 }
-
 /* pagina principal */
+
+.imagen{
+
+    height:30rem;
+    width: 100%;
+}
 
 .articulos{
     display: grid;
@@ -84,7 +116,7 @@
     
 
     border-radius: 1rem;
-    background-color: #fff;
+    background-color: #fbfbfb;
     overflow: hidden;
     box-shadow: 1vw 1vw 1vw 1vw;
     transition: transform 0.3s;
@@ -128,11 +160,13 @@ p{
 
 /* nosotros */
 
+.carousel{
 
-.imagen__nosotros{
+    padding: 1rem ;
+}
+.parrafo__texto{
 
-    height: 40vw;
-    width: 100%;
+    padding: 0%;
 }
 .title__h1{
     display: flex;
@@ -161,52 +195,30 @@ p{
 
 /* especialidades */
 
-.especialidades__img{
 
+.especialidades__lista {
+
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      background-color: #78c1c9;
+      font-size: 1.5rem;
     
-    height: 40vw;
-    width: 100%;
-}
-
-.grid {
-    display: grid;   
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows:repeat(3, 1fr);
-   grid-column-gap: 4rem;
-   grid-row-gap: 6rem;
-   justify-items: center;
-
-
-
-    /* estilos*/
-     margin: 8rem 2rem 20rem 2rem;
-
-  }
-.servicios__prof{
-    display: flex;
-    flex-direction: column;
-    
-}
-.color__especialidades{
-     /* estilos*/
-    background-color: #8f8c8c;
-    color:#d6e076;
-    padding: 1rem 1rem;
-    font-size: 1.5rem;
-    font-family:'Amatic SC', cursive;
-    border-radius: 0.5rem;
+      
 
 }
+.especialidades__horarios {
+
+    background-color: #78c1c9;
+    font-size: 2rem;
+}
+
  .horarios__especialidades{
 
     display: flex;
     justify-content: center;
-    /* estilos */
-    background-color: #7E9CD9;
-    font-size: 3rem;
 
 
- }
+}
 
 /* contacto*/
 
@@ -215,11 +227,13 @@ p{
 .formulario__grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-color: #7E9CD9;
+    align-items: center;
+   background-color: #78c1c9;
     margin: 5rem 3rem;
     margin-bottom: 20rem;
     padding: 2rem;
     border-radius: 0.5rem;
+    font-size: 2rem;
 }
 
 
@@ -233,17 +247,7 @@ p{
     width: 100%;
   }
   
-  .form--input {
-    width: 50%;
-    
-    /* estilos */
-
-    outline: none;
-
-  }
-  
-
-  
+ 
  .form--lebel{
     width: 100%;
     text-align: left;
@@ -253,24 +257,27 @@ p{
     font-size: 1.5rem;
   }
   
-  
+  .form__text{
+
+    font-size: 1.5rem;
+  }
   .form--button {
     /* estilos */
     padding: 5px 20px;
     background-color: transparent;
-    border: 2px solid #d6e076;
+    border: 1px solid  #909090;
     color: black;
-    border-radius: 5px;
-    cursor: pointer;
+    border-radius: 3px;
     font-family: 'Amatic SC', cursive;
     font-size: 1.5rem;
+    transition: color 0.5s;
   }
   
 
   .form--button:hover {
     /* estilos */
-    box-shadow: 0px 0px 5px  #d6e076, 0px 0px 15px  #d6e076,0px 0px 25px #d6e076;
-    color: #d6e076;
+    box-shadow: 0px 0px 5px  #fcd498, 0px 0px 15px  #fcd498,0px 0px 25px #fcd498;
+    color: #fcd498;
     
 
   }
@@ -279,12 +286,11 @@ p{
 
 .horarios{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1 fr;
     /* estilos */
     padding-bottom: 2rem;
-    font-size: 2rem;
     text-align: center;
-    background-color: #7E9CD9;
+    background-color: #78c1c9;
     justify-items: center;
     align-items: stretch;
     align-content: center;
@@ -296,27 +302,38 @@ p{
     display: grid;
     /* estilos */
     text-align: center;
-    font-size: 2rem;
-    background-color: #7E9CD9;
+    background-color: #78c1c9;
     
     
 }
-
-
-.footer{
-    display: flex;
-    justify-content: flex-end;
+.foot {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    gap: 50px ; 
+    padding: 20px 20px;
+    margin-top: 50px;
 
     
-    /* Estilos*/
-    background-color: #7E9CD9;
-    width: 100%;
-    font-size: 2rem;
-    padding: 1.5rem 3rem;
-
-
 }
 
+.foot__logo{
+
+    font-size: 8rem;
+}
+
+.foot li p {
+
+
+font-size: 1.5rem;
+}
+
+.foot i {
+
+
+    font-size: 2rem;
+}
 
 
 @media screen and (max-width: 1200px) {
@@ -352,7 +369,26 @@ p{
    
     }
 
+
+  
+    /* nosotros */ 
+
+    .title__h1{
+     
+        padding-top: 2rem;
+    }
+    }
+
+/* especialidades */
+
+.especialidades__lista{
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4. 1fr);
+    justify-items: stretch;
 }
+
 
 @media screen and (max-width: 880px) {
    
@@ -384,15 +420,23 @@ p{
    
     }
 
+    /* nosotros */
+    .parrafo__texto {
+
+        padding-top: 1rem;
+    }
+
+
     /* contacto */
     .formulario__grid{
        display: grid;
        grid-template-columns: 1fr ;
        justify-items: center;
-       
-        gap: 3rem;
+       margin-bottom: 10rem;
+    
         
     }
+
     .horarios{
         padding: 2rem 6rem 2rem 6rem;
         font-size: 3rem;
@@ -404,7 +448,7 @@ p{
 
     /* especialidades */
 
-    .grid{
+    .especialidades__lista{
 
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -425,17 +469,10 @@ p{
         width: 100%;
      }
 
-    .header__title{
 
-        font-size: 2.5rem;
-    }
-   /* navbar */
-
-    .content__navbar{
-
-        font-size: 1.5rem;
-    }
     /* imagen pagina principal */
+
+
     .imagen{
 
         display: none;
@@ -448,14 +485,15 @@ p{
         justify-items: center;
     
     }
+
+
     /* contacto */
 
     .formulario__grid{
         display: grid;
         grid-template-rows: 1fr ;
-        /*justify-items: center;*/
     
-         gap: 3rem;
+
          
      }
      .horarios{
@@ -469,22 +507,25 @@ p{
    
       /* especialidades */
 
-     .horarios__especialidades{
-
-        font-size: 1.5rem;
-     }
-     .especialidades__img{
-         width: 100%;
-     }
-     
-
-     .grid{
+     .especialidades__lista{
 
         display: grid;
         grid-template-columns: 1fr;
+        font-size: 1rem;
+     }
+     .especialidades__horarios{
+        font-size: 1rem;
      }
 
+
+      
       /* nosotros */
+   
+      .title__h1{
+        
+        font-size: 2rem;
+        padding-top: 2rem;
+    }
 
      .imagen__nosotros{
 
@@ -499,10 +540,38 @@ p{
         font-size: 1.5rem;
      }
         /* footer */
-    .footer{
+
+    .foot {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+        gap: 50px ; 
+        padding: 5px 5px;
+        margin-top: 20px;
         width: 100%;
+        
+
     }
 
+
+    .foot__logo{
+
+        font-size: 4rem;
+    }
+    
+    .foot li p {
+    
+    
+    font-size: 1rem;
+    }
+    
+    .foot i {
+    
+    
+        font-size: 1.5rem;
+    }
+    
 }
 
 
@@ -535,9 +604,7 @@ p{
   
   
     }
-    .card__img{
-      display: none;
-    }
+
     .card__title{
       font-size: 2rem;
     }
@@ -550,33 +617,23 @@ p{
     .formulario__grid{
       display: grid;
       grid-template-rows: 1fr ;
-     
-     
-       gap: 3rem;
-       
+      gap: 4rem;
    }
      
    .form--lebel{
       width: 100%;
       text-align: left;
+    
   
-      /* estilos */
-      
-      font-size: 1rem;
+
     }
-    .form--button{
-      font-size: 1rem;
-    }
+
    .horarios{
       display: grid;
       justify-items: stretch;
        padding: 0%;;
        margin:0%
       
-   }
-   .horarios__parrafo{
-  
-       font-size: 1rem;
    }
 
 
@@ -590,9 +647,18 @@ p{
     font-size: 1.5rem;
    }
     /* footer */
-  .footer{
-      width: 100%;
-  }
+    .foot {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+        gap: 50px ; 
+        padding: 20px 20px;
+        margin-top: 50px;
+        width: 100%;
+        
+    }
+    
     }
     
 
@@ -624,9 +690,7 @@ p{
 
 
   }
-  .card__img{
-    display: none;
-  }
+
   .card__title{
     font-size: 2rem;
   }
@@ -647,19 +711,28 @@ p{
  .form--lebel{
     width: 100%;
     text-align: left;
+    font-size: 1rem;
 
     /* estilos */
     
     font-size: 1rem;
   }
   .form--button{
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    
+  }
+  .form__text{
+
     font-size: 1rem;
   }
  .horarios{
     display: grid;
     justify-items: stretch;
      padding: 0%;;
-     margin:0%
+     margin:0%;
+     font-size: 1.5rem;
     
  }
  .horarios__parrafo{
@@ -673,17 +746,18 @@ p{
  .especialidades__img{
     display: none;
  }
+ .especialidades__lista {
+
+    padding: 1px;
+ }
 
  /* nosotros */
 
- .imagen__nosotros{
-    display: none;
-
- }
 
  .title__h1{
 
-    font-size: 3rem;
+    font-size: 1.5rem;
+    padding-bottom: 0rem;
  }
  .parrafo__crianza{
     display: flex;
@@ -691,14 +765,23 @@ p{
     align-content: center;
     /* estilos */
     padding: 0rem 2rem 1rem 2rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
     
  }
 
  /* footer */
-.footer{
+ .foot {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 50px ; 
+    padding: 20px 20px;
+    margin-top: 50px;
     width: 100%;
+    
 }
+
   }
   
 
