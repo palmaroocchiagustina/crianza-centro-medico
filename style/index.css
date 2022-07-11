@@ -598,10 +598,10 @@ font-size: 1.5rem;
     /* tarjetas */
 
     .card{
-  
+      
       width: 15rem;
       height: 30rem;
-  
+      
   
     }
 
@@ -609,7 +609,7 @@ font-size: 1.5rem;
       font-size: 2rem;
     }
     .card__informacion{
-      font-size: 1.5rem;
+      font-size: 20px;
     }
   
     /* contacto */
@@ -685,17 +685,18 @@ font-size: 1.5rem;
   /* tarjetas */
   .card{
 
+
     width: 15rem;
     height: 30rem;
-
-
+     margin-right: 5rem;
+     align-content: center;
   }
 
   .card__title{
     font-size: 2rem;
   }
   .card__informacion{
-    font-size: 1.5rem;
+    font-size: 20px;
   }
     /* contacto */
   
