@@ -1,0 +1,22 @@
+{
+  "name": "crianza",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass --include-path sass ./sass/index.scss ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palmaroocchiagustina/crianza-centro-medico.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/palmaroocchiagustina/crianza-centro-medico/issues"
+  },
+  "homepage": "https://github.com/palmaroocchiagustina/crianza-centro-medico#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
