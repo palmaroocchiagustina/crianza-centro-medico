@@ -178,29 +178,39 @@
    }
    
     /* especialidades */
-
-   .especialidades__lista{
-
-      display: grid;
-      grid-template-columns: 1fr;
-      font-size: 1.5rem;
-
-      &__titulo{
-        font-size: 1.5rem;
-     }
-     
-     &__p{
-  
-      font-size: 1.5rem;
-      
-     }
-
-
-
-
-   }
- 
     
+.especialidades{
+
+  &__lista{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 1.5rem;
+
+ }
+
+ &__info{
+
+  background-color: #78c1c9;
+
+  &__titulo{
+  
+      font-size: 2rem;
+  }
+  
+  &__info{
+  
+      font-size: 2rem;
+  }
+  
+  
+  }
+
+
+
+}
+
+   
     /* nosotros */
  
     .contenido{

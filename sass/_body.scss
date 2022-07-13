@@ -145,15 +145,31 @@
         font-size: 1.5rem;
       
     }
-    
+
     &__info{
-    
+  
         background-color: #78c1c9;
+    
+    &__titulo{
+    
         font-size: 2rem;
     }
     
-
+    &__p{
+    
+        font-size: 2rem;
+    }
+    
+    
+    }
+    
+    
+    
+ 
 }
+
+
+
 
 /* contacto*/
 
@@ -198,16 +214,14 @@
   }
   
 
-  &__grid--button:hover {
-    /* estilos */
+  &__grid--button:hover  {
+
+
     box-shadow: 0px 0px 5px  #fcd498, 0px 0px 15px  #fcd498,0px 0px 25px #fcd498;
     color: #fcd498;
     
 
   }
-
-
-
 
 
 
