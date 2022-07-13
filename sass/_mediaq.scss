@@ -1,0 +1,523 @@
+
+
+@media screen and (max-width: 1200px) {
+    
+  /* header*/
+  .navbar{
+
+      width: 100%;
+
+
+      &__content{
+
+        font-size: 2rem;
+    }
+  }
+  .titulo{
+
+      font-size: 4rem;
+  }
+
+  
+  /* imagen pagina principal*/
+
+  /* tajetas*/
+
+  .articulos{
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-items: center;
+ 
+  }
+
+
+
+  /* nosotros */ 
+
+  .contenido{
+   
+      padding-top: 2rem;
+  }
+  }
+
+/* especialidades */
+
+.especialidades__lista{
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  
+  justify-items: stretch;
+}
+
+
+@media screen and (max-width: 880px) {
+ 
+   /* header*/
+  .titulo{
+
+      font-size: 4rem;
+  }
+
+  /*navbar*/
+  .navbar__content{
+
+      font-size: 2rem;
+  }
+
+  /* tarjetas*/
+
+  .articulos{
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-items: center;
+ 
+  }
+
+  /* nosotros */
+  .contenido {
+
+      padding-top: 1rem;
+  }
+
+
+  /* contacto */
+  .formulario__grid{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     justify-items: center;
+     margin-bottom: 10rem;
+  
+
+     &__titulo{
+      padding: 2rem 6rem 2rem 6rem;
+      font-size: 3rem;
+       }
+
+
+
+       &__parrafo{
+
+      font-size: 2rem;
+       }
+
+      
+  }
+
+
+  /* especialidades */
+
+  .especialidades__lista{
+
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: stretch;
+  }
+  
+}
+
+
+@media screen and (max-width: 480px) {
+  
+
+  /* header*/
+
+   .navbar{
+
+      width: 100%;
+    
+
+
+      &__content{
+
+        font-size: 1.5rem;
+       }
+    
+
+   }
+
+  
+
+  /* imagen pagina principal */
+
+    .imagen {
+      margin: 20px;
+      height: 25rem;
+      width: 90%;
+    }
+
+  /* tarjetas */
+  .articulos{
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-items: center;
+  
+  }
+
+
+  /* contacto */
+
+  .formulario__grid{
+      display: grid;
+      grid-template-columns: 1fr ;
+      gap: 60px;
+
+      &__titulo{
+
+
+        font-size: 2rem;
+        padding: 2rem 6rem 0rem 6rem;
+       
+    }
+    &__parrafo{
+ 
+      font-size: 2rem;
+    }
+  
+
+   }
+   
+    /* especialidades */
+
+   .especialidades__lista{
+
+      display: grid;
+      grid-template-columns: 1fr;
+      font-size: 1.5rem;
+
+      &__titulo{
+        font-size: 1.5rem;
+     }
+     
+     &__p{
+  
+      font-size: 1.5rem;
+      
+     }
+
+
+
+
+   }
+ 
+    
+    /* nosotros */
+ 
+    .contenido{
+      
+      font-size: 2rem;
+      padding-top: 2rem;
+
+
+      &__parrafo{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        /* estilos */
+        padding: 0rem 2rem 1rem 2rem;
+        font-size: 1.5rem;
+     }
+  }
+
+     /* footer */
+
+  .foot {
+      display: grid;
+      grid-template-columns: 1fr;
+      align-items: center;
+      justify-items: center;
+      gap: 10px ; 
+      padding: 5px 5px;
+      margin-top: 20px;
+      width: 100%;
+      
+
+      &__logo{
+
+        font-size: 4rem;
+    }
+    
+    &__info{
+    
+    
+    font-size: 20px;
+    }
+    
+    &__rrss{
+    
+        
+        font-size: 2rem;
+
+    }
+
+
+
+  }
+
+
+  
+  
+}
+
+
+
+@media screen and (max-width: 430px) {
+
+  /* header */
+
+  .header{
+    width: 100%;
+  }  
+  .header__title{
+
+    font-size: 2rem;
+  }
+
+  /* navbar */
+  .content__navbar{
+    font-size: 1rem;
+
+    
+  }
+
+  /* tarjetas */
+
+  .articulos{
+    
+    display: grid;
+    justify-content: end;
+
+
+   &__card--title{
+
+      font-size: 3rem;
+  
+    }
+    &__card--informacion{
+  
+      font-size: 1.5rem ;
+    }
+
+  }
+
+  
+
+  /* contacto */
+  
+  .formulario__grid{
+    display: grid;
+    grid-template-rows: 1fr ;
+    gap: 4rem;
+
+    
+ &__grid--item{
+  width: 100%;
+  text-align: left;
+
+
+
+}
+
+
+
+ }
+  
+ .horarios{
+    display: grid;
+    justify-items: stretch;
+     padding: 0%;;
+     margin:0%
+    
+ }
+
+
+ /* nosotros */
+ .parrafo__crianza{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  /* estilos */
+  padding: 0rem 2rem 1rem 2rem;
+  font-size: 1.5rem;
+ }
+  /* footer */
+  .foot {
+      display: grid;
+      grid-template-columns: 1fr;
+      align-items: center;
+      justify-items: center;
+      gap: 50px ; 
+      padding: 20px 20px;
+      margin-top: 50px;
+      width: 100%;
+      
+  }
+  
+  }
+  
+
+
+@media screen and (max-width: 330px){
+
+
+
+  .navbar{
+  width: 100%;
+
+
+  &__content{
+    font-size: 1rem;
+  
+    
+  }
+}  
+
+
+
+  /* imagen pagina principal */
+
+  .imagen {
+    margin: 20px;
+    height: 10rem;
+    width: 90%;
+  }
+
+
+/* tarjetas */
+.articulos__card{
+
+
+  width: 15rem;
+  height: 25rem;
+  
+ 
+}
+
+
+.articulos__card--title{
+  font-size:  2rem;
+
+
+}
+.articulos__card--informacion{
+  font-size:  17px;
+  
+  line-height: 1.5;
+
+}
+
+  /*nosotros*/
+
+.carousel{
+
+display: none;
+
+}
+
+.contenido__title{
+ 
+  padding-bottom: 2rem;
+  font-size: 2rem;
+ 
+
+}
+
+.contenido__parrafo{
+
+  font-size: 1rem;
+  margin-bottom: 20%;
+}
+  /* contacto */
+
+.formulario__grid{
+  display: grid;
+  grid-template-columns: 1fr ;
+   font-size: 1rem;
+  justify-content: center;
+  margin: 40px;   
+
+
+  &__grid--lebel{
+
+    text-align: left;
+    font-size: 1rem;
+  
+  }
+  &__grid--button{
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    
+  }
+}
+ 
+
+
+.horarios{
+  display: grid;
+  justify-items: stretch;
+   font-size: 1rem;
+  
+   &__titulo{
+
+font-size: 1rem ;
+
+   }
+   &__parrafo{
+
+    font-size: 1rem;
+ }
+ 
+}
+
+
+/* especialidades */
+
+.especialidades__img{
+  display: none;
+
+}
+
+.especialidades__lista{
+
+font-size: 1.5rem;
+
+
+}
+.especialidades__title{
+
+font-size: 1.5rem;
+
+}
+
+.especialidades__p{
+
+font-size: 1.5rem;
+
+}
+
+
+/* footer */
+.foot {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
+  gap: 2px;
+  width: 100%;
+
+ &__info{
+
+font-size: 15px;
+
+ } 
+
+
+&__rrss{
+
+font-size: 20px;
+
+}
+
+}
+}

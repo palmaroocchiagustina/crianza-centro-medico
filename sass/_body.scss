@@ -9,20 +9,28 @@
 }
 
 .articulos{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: space-around;
-    flex-direction: row;
+    
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-around;
+        flex-direction: row;
+    
+        /* estilos */
+    
+        margin: auto;
+       margin-bottom: 30%;
+       
+    
+  /* imagen pagina principal */
 
-    /* estilos */
+  .imagen {
+    margin: 20px;
+    height: 25rem;
+    width: 90%;
+  }
 
-    margin: auto;
-   margin-bottom: 30%;
-   
 
-  
-}
-.card {
+&__card {
 
     display: inline-flex;
 
@@ -51,14 +59,14 @@
 
 }
 
-.card:hover {
+&__card:hover {
 
            transform: translateY(-10px);
 
 }
 
 /* estilos*/
-.card__img{
+&__card--img{
 
     width: 5rem;
     height: 5rem;
@@ -66,7 +74,7 @@
     
 }
 
-.card__title{
+&__card--title{
     font-size: 3rem;
     padding-top: 20px;
     padding-bottom: 10px;
@@ -74,16 +82,17 @@
 
 }
 
-.card__informacion{
+&__card--informacion{
     font-size:  1.5rem;
     text-align: center;
-}
-
-
-
-p{
     line-height: 1.5;
+
 }
+
+
+  
+}
+
 
 /* nosotros */
 
@@ -91,62 +100,60 @@ p{
 
     padding: 1rem ;
 }
-.parrafo__texto{
+.contenido{
 
     padding: 0%;
-}
-.title__h1{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-   /* estilos */
-    padding-top: 5rem;
-    padding-bottom: 2rem;
-    font-size: 4rem;
-   
+
+
+    &__title{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+       /* estilos */
+        padding-top: 5rem;
+        padding-bottom: 2rem;
+        font-size: 4rem;
+       
+    
+    }
+    
+    &__parrafo{
+        display: flex-box;
+        flex-direction: column;
+        align-content: center;
+        font-size: 2rem;
+        /* estilos */
+        padding: 0rem 7rem 7rem 7rem;
+        margin-bottom: 20%;
+    }
+    
+    
 
 }
-
-.parrafo__crianza{
-    display: flex-box;
-    flex-direction: column;
-    align-content: center;
-    font-size: 2rem;
-    /* estilos */
-    padding: 0rem 7rem 7rem 7rem;
-    margin-bottom: 20%;
-}
-
 
 
 /* especialidades */
 
+.especialidades{
 
-.especialidades__lista {
+    &__lista {
 
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    background-color: #78c1c9;
-    font-size: 1.5rem;
-  
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        background-color: #78c1c9;
+        font-size: 1.5rem;
+      
+    }
+    
+    &__info{
+    
+        background-color: #78c1c9;
+        font-size: 2rem;
+    }
     
 
 }
-.especialidades__horarios {
-
-  background-color: #78c1c9;
-  font-size: 2rem;
-}
-
-.horarios__especialidades{
-
-  display: flex;
-  justify-content: center;
-
-
-}
-
 
 /* contacto*/
 
@@ -161,35 +168,23 @@ p{
     margin-bottom: 20rem;
     padding: 2rem;
     border-radius: 0.5rem;
-    font-size: 2rem;
-}
+    font-size: 1.5rem;
+    
 
-
+   
   
-  .form__div {
+  &__grid--item{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: stretch;
     /* estilos */
     width: 100%;
+    
   }
   
- 
- .form--lebel{
-    width: 100%;
-    text-align: left;
 
-    /* estilos */
-    color: black;
-    font-size: 1.5rem;
-  }
-  
-  .form__text{
-
-    font-size: 1.5rem;
-  }
-  .form--button {
+  &__grid--button {
     /* estilos */
     padding: 5px 20px;
     background-color: transparent;
@@ -198,11 +193,12 @@ p{
     border-radius: 3px;
     font-family: 'Amatic SC', cursive;
     font-size: 1.5rem;
-    transition: color 0.5s;
+    transition: color 0.3s;
+ 
   }
   
 
-  .form--button:hover {
+  &__grid--button:hover {
     /* estilos */
     box-shadow: 0px 0px 5px  #fcd498, 0px 0px 15px  #fcd498,0px 0px 25px #fcd498;
     color: #fcd498;
@@ -210,27 +206,44 @@ p{
 
   }
 
+
+
+
+
+
+}
+
+
 /* horarios */
 
 .horarios{
     display: grid;
-    grid-template-columns: 1 fr;
+
     /* estilos */
     padding-bottom: 2rem;
     text-align: center;
-    background-color: #78c1c9;
+
     justify-items: center;
     align-items: stretch;
     align-content: center;
     border-radius: 1rem;
     
-}
-.horarios__parrafo{
+    &__titulo {
 
-    display: grid;
-    /* estilos */
-    text-align: center;
-    background-color: #78c1c9;
-    
-    
+        font-size: 2rem ;
+    }
+
+
+    &__parrafo{
+
+        display: grid;
+        /* estilos */
+        text-align: center;
+
+        font-size: 2rem;
+        
+        
+    }
+
+
 }

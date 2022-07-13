@@ -1,3 +1,7 @@
+
+@import 'variables';
+
+
 .foot {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -6,24 +10,26 @@
     gap: 50px ; 
     padding: 20px 20px;
     margin-top: 50px;
-    background-color:  #78c1c9;
+    background-color:  $colornavbar;
+
+
+    &__logo{
+
+        font-size: $fuentelogo;
+    }
+    
+    &__info{
+    
+    
+    font-size: 1.5rem;
+    }
+    
+    &__rrss{
+    
+    
+        font-size: 2rem;
+    }
 
     
 }
 
-.foot__logo{
-
-    font-size: 8rem;
-}
-
-.foot__info{
-
-
-font-size: 1.5rem;
-}
-
-.foot__rrss{
-
-
-    font-size: 2rem;
-}
