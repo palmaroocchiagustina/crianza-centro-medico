@@ -191,21 +191,17 @@
 
  &__info{
 
-  background-color: #78c1c9;
+  background-color: $colornavbar;
+  
+  font-size: 1.5rem;
 
-  &__titulo{
-  
-      font-size: 2rem;
-  }
-  
-  &__info{
-  
-      font-size: 2rem;
-  }
-  
+ 
   
   }
+ &__titulo {
 
+  font-size: 2rem;
+ }
 
 
 }
@@ -340,16 +336,6 @@
     
  }
 
-
- /* nosotros */
- .parrafo__crianza{
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  /* estilos */
-  padding: 0rem 2rem 1rem 2rem;
-  font-size: 1.5rem;
- }
   /* footer */
   .foot {
       display: grid;
@@ -426,8 +412,11 @@ display: none;
 
 .contenido__title{
  
+  padding-top: 2rem;
   padding-bottom: 2rem;
   font-size: 2rem;
+
+
  
 
 }
@@ -491,20 +480,14 @@ font-size: 1rem ;
 .especialidades__lista{
 
 font-size: 1.5rem;
-background-color: #fff;
+background-color: $colorencabezados;
 
 
 }
 
-.especialidades__title{
+.especialidades__content {
 
-font-size: 1.5rem;
-
-}
-
-.especialidades__p{
-
-font-size: 1.5rem;
+background-color: $colornavbar;
 
 }
 

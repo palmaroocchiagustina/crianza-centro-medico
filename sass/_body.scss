@@ -1,8 +1,20 @@
 
+@import 'variables';
+
 .body{
     
     background: url(../imagenes/background.png) center center/cover no-repeat;
+}   
+
+/* imagen pagina principal */
+
+.imagen {
+  width: 90%;
+  height: 25rem;
+  margin: 20px;
 }
+
+
 .articulos{
     
         display: grid;
@@ -16,14 +28,6 @@
        margin-bottom: 30%;
        
     
-  /* imagen pagina principal */
-
-  .imagen {
-    margin: 20px;
-    height: 25rem;
-    width: 90%;
-  }
-
 
 &__card {
 
@@ -39,14 +43,14 @@
     margin-bottom: 3rem;
     margin-left: 5.5rem;
     margin-right: 3rem;
-    color: #363636;
+    color: $colorcontent;
     padding: 2rem;
     width: 20rem;
     height: 30rem;
     
 
     border-radius: 1rem;
-    background-color: #fbfbfb;
+    background-color: $colorencabezados;
     overflow: hidden;
     box-shadow: 1vw 1vw 1vw 1vw;
     transition: transform 0.3s;
@@ -136,14 +140,14 @@
 
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        background-color: #78c1c9;
+        background-color: $colornavbar;
         font-size: 1.5rem;
       
     }
 
     &__info{
   
-        background-color: #78c1c9;
+        background-color: $colornavbar;
     
     &__titulo{
     
@@ -174,7 +178,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-   background-color: #78c1c9;
+   background-color: $colornavbar;
     margin: 5rem 3rem;
     margin-bottom: 20rem;
     padding: 2rem;

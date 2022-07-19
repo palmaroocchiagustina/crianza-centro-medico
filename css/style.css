@@ -9,6 +9,12 @@
 .body {
   background: url(../imagenes/background.png) center center/cover no-repeat; }
 
+/* imagen pagina principal */
+.imagen {
+  width: 90%;
+  height: 25rem;
+  margin: 20px; }
+
 .articulos {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -17,12 +23,7 @@
   /* estilos */
   margin: auto;
   margin-bottom: 30%;
-  /* imagen pagina principal */
   /* estilos*/ }
-  .articulos .imagen {
-    margin: 20px;
-    height: 25rem;
-    width: 90%; }
   .articulos__card {
     display: inline-flex;
     flex-flow: wrap;
@@ -38,7 +39,7 @@
     width: 20rem;
     height: 30rem;
     border-radius: 1rem;
-    background-color: #fbfbfb;
+    background-color: #fffdfd;
     overflow: hidden;
     box-shadow: 1vw 1vw 1vw 1vw;
     transition: transform 0.3s; }
@@ -265,11 +266,10 @@
     grid-template-columns: 1fr;
     font-size: 1.5rem; }
   .especialidades__info {
-    background-color: #78c1c9; }
-    .especialidades__info__titulo {
-      font-size: 2rem; }
-    .especialidades__info__info {
-      font-size: 2rem; }
+    background-color: #78c1c9;
+    font-size: 1.5rem; }
+  .especialidades__titulo {
+    font-size: 2rem; }
   /* nosotros */
   .contenido {
     font-size: 2rem;
@@ -328,14 +328,6 @@
     justify-items: stretch;
     padding: 0%;
     margin: 0%; }
-  /* nosotros */
-  .parrafo__crianza {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    /* estilos */
-    padding: 0rem 2rem 1rem 2rem;
-    font-size: 1.5rem; }
   /* footer */
   .foot {
     display: grid;
@@ -370,6 +362,7 @@
   .carousel {
     display: none; }
   .contenido__title {
+    padding-top: 2rem;
     padding-bottom: 2rem;
     font-size: 2rem; }
   .contenido__parrafo {
@@ -402,11 +395,9 @@
     display: none; }
   .especialidades__lista {
     font-size: 1.5rem;
-    background-color: #fff; }
-  .especialidades__title {
-    font-size: 1.5rem; }
-  .especialidades__p {
-    font-size: 1.5rem; }
+    background-color: #fffdfd; }
+  .especialidades__content {
+    background-color: #78c1c9; }
   /* footer */
   .foot {
     display: grid;
