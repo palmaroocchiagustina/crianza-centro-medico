@@ -1,23 +1,22 @@
 {
   "name": "crianza",
   "version": "1.0.0",
-  "description": "agragar sass",
+  "description": "merge de rama-3 a main",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "node-sass --include-path sass ./sass/index.scss ./css/style.css -w"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/palmaroocchiagustina/crianza-centro-medico.git"
   },
-  "author": "",
+  "author": "Agustina Palmarocchi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/palmaroocchiagustina/crianza-centro-medico/issues"
   },
   "homepage": "https://github.com/palmaroocchiagustina/crianza-centro-medico#readme",
   "devDependencies": {
-    "node": "^18.5.0",
-    "sass": "^1.53.0"
+    "node-sass": "^7.0.1"
   }
 }

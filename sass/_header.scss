@@ -1,0 +1,43 @@
+
+@import 'variables';
+
+
+
+.navbar {
+
+    background-color: $colornavbar;
+   
+
+    &__content{
+        
+        
+        color: $colorcontent ;
+        color: 0.5s;
+    }
+    
+    
+    &__content:hover {
+    
+        color: $colornavbarhover;
+    }
+    &__option{
+    
+    background-color: $colornavbar;
+    
+    
+    }
+    &__content-item{
+    
+        transition: color 0.3s;
+    
+    }
+    
+    &__content-item:hover{
+    
+        color: #f19e21;
+    }
+    
+
+
+}
+
