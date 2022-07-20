@@ -17,6 +17,13 @@
     &__logo{
 
         font-size: $fuentelogo;
+        transition: color 0.3s;
+
+    }
+
+    &__logo:hover{
+
+        color: $colornavbarhover;
 
     }
     
@@ -28,7 +35,7 @@
     
     &__rrss{
     
-    
+
         font-size: 2rem;
     }
 
