@@ -306,7 +306,13 @@
 
   }
 
+  /*especialidades*/
+
+  .encabezado{
+    
+    font-size: 2rem;
   
+  }
 
   /* contacto */
   
@@ -476,6 +482,18 @@ font-size: 1rem ;
   display: none;
 
 }
+
+.encabezado{
+  
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  background-color: $colornavbar;
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+}
+
 
 .especialidades__lista{
 
