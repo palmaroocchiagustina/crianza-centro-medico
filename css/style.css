@@ -159,6 +159,9 @@
     font-size: 1.5rem; }
   .foot__rrss {
     font-size: 2rem; }
+    .foot__rrss a {
+      text-decoration: none;
+      color: black; }
 
 .navbar {
   background-color: #78c1c9; }
@@ -251,11 +254,10 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 60px; }
-    .formulario__grid__titulo {
-      font-size: 2rem;
-      padding: 2rem 6rem 0rem 6rem; }
-    .formulario__grid__parrafo {
-      font-size: 2rem; }
+  .horarios__titulo {
+    font-size: 2rem; }
+  .horarios__parrafo {
+    font-size: 1.5rem; }
   /* especialidades */
   .especialidades__lista {
     display: grid;
@@ -266,6 +268,8 @@
     font-size: 1.5rem; }
   .especialidades__titulo {
     font-size: 2rem; }
+  .especialidades__p {
+    font-size: 1.5rem; }
   /* nosotros */
   .contenido {
     font-size: 2rem;
@@ -346,7 +350,7 @@
   /* imagen pagina principal */
   .imagen {
     margin: 20px;
-    height: 10rem;
+    height: 15rem;
     width: 90%; }
   /* tarjetas */
   .articulos__card {
@@ -360,13 +364,15 @@
   /*nosotros*/
   .carousel {
     display: none; }
-  .contenido__title {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    font-size: 2rem; }
-  .contenido__parrafo {
-    font-size: 1rem;
-    margin-bottom: 20%; }
+  .contenido {
+    margin-top: 4rem; }
+    .contenido__title {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      font-size: 2rem; }
+    .contenido__parrafo {
+      font-size: 1rem;
+      margin-bottom: 20%; }
   /* contacto */
   .formulario__grid {
     display: grid;
@@ -374,10 +380,10 @@
     font-size: 1rem;
     justify-content: center;
     margin: 40px; }
-    .formulario__grid__grid--lebel {
+    .formulario__grid--lebel {
       text-align: left;
       font-size: 1rem; }
-    .formulario__grid__grid--button {
+    .formulario__grid--button {
       display: flex;
       justify-content: center;
       font-size: 1rem; }
@@ -410,8 +416,10 @@
     grid-template-columns: 1fr;
     align-items: center;
     justify-items: center;
-    gap: 2px;
+    gap: 1px;
     width: 100%; }
+    .foot__logo {
+      font-size: 45px; }
     .foot__info {
       font-size: 15px; }
     .foot__rrss {

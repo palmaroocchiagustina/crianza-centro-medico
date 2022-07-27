@@ -162,18 +162,24 @@
       grid-template-columns: 1fr ;
       gap: 60px;
 
-      &__titulo{
+
+   }
+
+   .horarios{
+
+    &__titulo{
 
 
-        font-size: 2rem;
-        padding: 2rem 6rem 0rem 6rem;
-       
-    }
-    &__parrafo{
- 
       font-size: 2rem;
-    }
-  
+    
+     
+  }
+  &__parrafo{
+
+    font-size: 1.5rem;
+  }
+
+
 
    }
    
@@ -201,6 +207,10 @@
  &__titulo {
 
   font-size: 2rem;
+ }
+ &__p{
+
+  font-size: 1.5rem;
  }
 
 
@@ -379,19 +389,22 @@
   /* imagen pagina principal */
 
   .imagen {
-    margin: 20px;
-    height: 10rem;
-    width: 90%;
+
+ margin: 20px;
+ height: 15rem;
+ width: 90%;
+
   }
 
-
 /* tarjetas */
+
+
 .articulos__card{
 
 
   width: 15rem;
   height: 25rem;
-  
+
  
 }
 
@@ -416,22 +429,30 @@ display: none;
 
 }
 
-.contenido__title{
+.contenido{
+
+margin-top: 4rem;
+
+&__title{
  
   padding-top: 2rem;
   padding-bottom: 2rem;
   font-size: 2rem;
 
 
- 
-
 }
 
-.contenido__parrafo{
+&__parrafo{
 
   font-size: 1rem;
   margin-bottom: 20%;
 }
+
+
+
+
+}
+
   /* contacto */
 
 .formulario__grid{
@@ -442,13 +463,13 @@ display: none;
   margin: 40px;   
 
 
-  &__grid--lebel{
+  &--lebel{
 
     text-align: left;
     font-size: 1rem;
   
   }
-  &__grid--button{
+  &--button{
     display: flex;
     justify-content: center;
     font-size: 1rem;
@@ -516,8 +537,16 @@ background-color: $colornavbar;
   grid-template-columns: 1fr;
   align-items: center;
   justify-items: center;
-  gap: 2px;
+  gap: 1px;
   width: 100%;
+
+&__logo{
+
+  font-size: 45px;
+}
+
+
+
 
  &__info{
 
