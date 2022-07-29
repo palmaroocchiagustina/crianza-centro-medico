@@ -350,15 +350,30 @@
     width: 100%; }
     .navbar__content {
       font-size: 1rem; }
-  /* imagen pagina principal */
+  /*h1{
+
+background-color: $colornavbar;
+margin-top: 1rem;
+
+}
+
+  /* imagen pagina principal 
+
+.imagen{
+
+display: none;
+
+}*/
   .imagen {
     margin: 20px;
-    height: 15rem;
+    height: 25vh;
     width: 90%; }
   /* tarjetas */
   .articulos__card {
     width: 15rem;
-    height: 25rem; }
+    height: 25rem;
+    margin-top: 6vh;
+    margin-bottom: 3vh; }
   .articulos__card--title {
     font-size: 2rem; }
   .articulos__card--informacion {

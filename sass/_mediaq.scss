@@ -393,14 +393,26 @@ font-size: 20px;
   }
 }  
 
+/*h1{
+
+background-color: $colornavbar;
+margin-top: 1rem;
+
+}
+
+  /* imagen pagina principal 
+
+.imagen{
+
+display: none;
+
+}*/
 
 
-  /* imagen pagina principal */
-
-  .imagen {
+.imagen {
 
  margin: 20px;
- height: 15rem;
+ height: 25vh;
  width: 90%;
 
   }
@@ -412,7 +424,8 @@ font-size: 20px;
 
   width: 15rem;
   height: 25rem;
-
+  margin-top: 6vh;
+  margin-bottom: 3vh;
  
 }
 
