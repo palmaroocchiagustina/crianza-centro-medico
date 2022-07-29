@@ -114,6 +114,15 @@
       justify-items: stretch;
   }
   
+  /*footer*/
+
+.foot__info{
+
+font-size: 20px;
+
+}
+
+
 }
 
 
@@ -332,7 +341,7 @@
     gap: 4rem;
 
     
- &__grid--item{
+ &--item{
   width: 100%;
   text-align: left;
 

@@ -112,7 +112,7 @@
   padding: 2rem;
   border-radius: 0.5rem;
   font-size: 1.5rem; }
-  .formulario__grid__grid--item {
+  .formulario__grid--item {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -231,7 +231,10 @@
   .especialidades__lista {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    justify-items: stretch; } }
+    justify-items: stretch; }
+  /*footer*/
+  .foot__info {
+    font-size: 20px; } }
 
 @media screen and (max-width: 480px) {
   /* header*/
@@ -323,7 +326,7 @@
     display: grid;
     grid-template-rows: 1fr;
     gap: 4rem; }
-    .formulario__grid__grid--item {
+    .formulario__grid--item {
       width: 100%;
       text-align: left; }
   .horarios {
